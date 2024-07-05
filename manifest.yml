@@ -1,0 +1,11 @@
+image: smartles/pgmigrate:latest
+manifests:
+  - image: smartles/pgmigrate:amd64
+    platform:
+      architecture: amd64
+      os: linux
+  - image: smartles/pgmigrate:arm64v8
+    platform:
+      architecture: arm64
+      os: linux
+      variant: v8

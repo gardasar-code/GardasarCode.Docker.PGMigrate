@@ -1,0 +1,8 @@
+version: '3'
+services:
+  pgmigrate:
+    container_name: pgmigrate-arm64v8
+    build:
+      context: .
+      dockerfile: Dockerfile.aarch64
+    image: "smartles/pgmigrate:arm64v8-latest"

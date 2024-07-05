@@ -1,0 +1,6 @@
+version: '3'
+services:
+  pgmigrate:
+    container_name: pgmigrate
+    build: .
+    image: "smartles/pgmigrate:latest"
